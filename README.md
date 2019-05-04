@@ -11,7 +11,7 @@ The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it
  - Enter python main.py -p 1 -i <my_image.jpg> on the command line
  - wait for the classification result
  
-# To train using your dataset
+# To train a model using your dataset
  - create a folder named "data" in the root of this project
  - the folder should contain two folders named "train" and "val"
  - each of the two folders should contain folders of different categories of images. eg, in the "train" folder 
