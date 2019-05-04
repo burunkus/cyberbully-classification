@@ -24,14 +24,16 @@ def test(net, img):
     if prediction == 'not-bully':
         return prediction
     else:
-        result = obj_detection(net, img)
-        return result
+        pass
+        #result = obj_detection(net, img)
+        #return result
 
 def obj_detection(net, img):
     #result = subprocess.Popen(["./darknet", "detect", "cfg/yolov3.cfg", "yolov3.weights", "data/dog.jpg"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     #output, errors = result.communicate()
-    result = os.system("./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg")
-    return result
+    #result = os.system("./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg")
+    #return result
+    pass
 
 def validate(net, criterion, dataloaders):
 
