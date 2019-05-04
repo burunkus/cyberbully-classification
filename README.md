@@ -7,7 +7,7 @@ The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it
  - Download the pretrained weights from: https://drive.google.com/open?id=1bZ5Qs_79DCJ2ssNcnS4HricXIFjP937f
  - create a folder named "weights" in the root of this project and put the downloaded weight in that folder
  - Download Pytorch and skimage
- - it is recommended you install in a virtual environment. 
+ - It is recommended you install in a virtual environment. I use https://www.anaconda.com/
  - Enter python main.py -p 1 -i <my_image.jpg> on the command line
  - wait for the classification result
  
