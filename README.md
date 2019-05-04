@@ -17,7 +17,7 @@ The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it
  - each of the two folders should contain folders of different categories of images. eg, in the "train" folder 
  you could have "gossiping", "slapping" ... folders, where each of those folders contain images belonging to that category. Same goes for val
  - on line 24 in load_data.py change the variable data_dir to the name of your dataset folder, which in this case would be "data"
- - in experiments.py, in the function save_checkpoint, on line 119 replace the second argument in torch.save() with "weights/best_model.pt"
+ - in experiments.py, in the function save_checkpoint, on line 112 replace the second argument in torch.save() with "weights/best_model.pt"
  - where weights is your weights folder in the root directory and best_model.pt is the file your model weight will be saved into. 
  - create an empty best_model.pt file and put it in that folder if you don't have that file in their. 
  - uncomment line 56 in main.py if you are using GPU 
