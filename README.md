@@ -1,7 +1,7 @@
 # cyberbully-classification
 Spring 2018 Deep leaning project - classification and detection of cyberbully actions on images.
-This project classifies cyberbully iamges from non-cyberbully images. The dataset is not available because of its rights
-The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it achieved a classification accuracy of 68%
+This project classifies cyberbully images from non-cyberbully images. The dataset is not available because of ownership rights.
+The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it achieved a classification accuracy of 68%. you can read about VGG16 here https://arxiv.org/abs/1409.1556
 
 # To classify an image using our pretrained model
  - Download the pretrained weights from: https://drive.google.com/open?id=1bZ5Qs_79DCJ2ssNcnS4HricXIFjP937f
