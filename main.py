@@ -53,13 +53,13 @@ if __name__ == '__main__':
     else:
         #load model that is not pre-trained
         net = secnet(pretrained=False)
-        net = net.to(device)
+        #net = net.to(device)
 
         criterion = nn.CrossEntropyLoss().to(device)
         optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
-        lr_reduction_scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
+        lr_reduction_scheduler = lr_scheduler.StepLR(optimizer, step_size=6, gamma=0.1)
 
-        train_model(net, criterion, optimizer, lr_reduction_scheduler, epoch_size=2)
+        train_model(net, criterion, optimizer, lr_reduction_scheduler, epoch_size=20)
         current_prediction = validate(net, criterion, dataloaders)
 
         is_best = current_prediction > best_prediction
