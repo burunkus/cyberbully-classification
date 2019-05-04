@@ -78,7 +78,7 @@ def validate(net, criterion, dataloaders):
 def train_model(net, criterion, optimizer, scheduler, epoch_size=2):
     print("Training Model")
     for epoch in range(epoch_size):  # loop over the dataset multiple times
-        #lr_reduction_scheduler.step()
+        scheduler.step()
         #training_correct = 0
         training_loss = 0.0
         for i, data in enumerate(dataloaders['train'], 0):
