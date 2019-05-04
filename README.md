@@ -23,7 +23,7 @@ The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it
  - uncomment line 56 in main.py if you are using GPU 
  - enter python main.py on the command line
  - hyperparameters you might want to modify - learning rate, learning rate decay, weight_decay - you can add weight_decay=0.0005 as a keyword argument on line 59 in main.py
- - if you don't want to decay the learning rate on line 60 in main.py, then comment line 90 in experiments.py in the function train_model
+ - if you don't want to decay the learning rate on line 60 in main.py, then comment line 82 in experiments.py in the function train_model
  - if you choose to decay the learning rate then do not do the above but mind the amount of your step_size in line 60 in main.py
 
 # Detection
