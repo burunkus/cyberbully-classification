@@ -28,4 +28,4 @@ The model is based on VGG16 and was implemented using Pytorch and Python 3.5, it
 
 # Detection
 The object detection and labeling part of this project is incomplete at the moment, we had labeled our dataset and attempted using YOLOv3. This can be continued on line 30 in experiments.py and by going through the YOLO documentation https://pjreddie.com/darknet/yolo/
-OR you can do it from scratch using R-CNN or Faster R-CNN etc
+OR you can do it from scratch using R-CNN, Faster R-CNN or Mask R-CNN etc
